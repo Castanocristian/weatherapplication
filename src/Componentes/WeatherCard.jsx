@@ -21,9 +21,9 @@ const WeatherCard = ({weather, temp}) => {
         <section className="Cuerpo">
           <h3>"{weather?.weather[0].description}"</h3>
           <ul>
-            <li><span>Wind Speed</span><span>{weather?.wind.speed}m/s</span></li>
-            <li><span>Clouds</span><span>{weather?.clouds.all}%</span></li>
-            <li><span>Pressure</span><span>{weather?.main.pressure}hPa</span></li>
+            <li><span>Wind Speed</span><span>&nbsp;&nbsp;&nbsp;{weather?.wind.speed}m/s</span></li>
+            <li><span>Clouds</span><span>&nbsp;&nbsp;&nbsp;{weather?.clouds.all}%</span></li>
+            <li><span>Pressure</span><span>&nbsp;&nbsp;&nbsp;{weather?.main.pressure}hPa</span></li>
           </ul>
         </section>
       </div>
